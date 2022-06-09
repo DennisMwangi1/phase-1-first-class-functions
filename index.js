@@ -1,14 +1,17 @@
-function receivesAFunction(callback) {
+function receivesAFunction(callback){
     return callback();
 }
 function returnsANamedFunction() {
-    var fn;
-    fn = () =>{}
-    return fn
+    // function named() {
+        
+    // }
+    // return named
+    let named = () =>{}
+    return named
 }
-function returnsAnAnonymousFunction(){ 
-    return (function() {
-        return ''
-    })
+function returnsAnAnonymousFunction(){
+    // return function () {
+        
+    // }
+    return ()=>{}
 }
-
